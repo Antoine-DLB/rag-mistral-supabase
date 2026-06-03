@@ -25,13 +25,3 @@ and Supabase (pgvector) as the vector store.
 4. Run ingestion: `python ingest.py`
 5. Run query: `python query.py`
 ```
-
----
-
-## Étape 3 : Créer un .env.example
-
-Crée un fichier `.env.example` (sans les vraies valeurs) :
-```
-MISTRAL_API_KEY=your_mistral_api_key
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_anon_key
