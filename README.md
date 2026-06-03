@@ -24,4 +24,3 @@ and Supabase (pgvector) as the vector store.
 3. Create a `.env` file with your API keys (see `.env.example`)
 4. Run ingestion: `python ingest.py`
 5. Run query: `python query.py`
-```
